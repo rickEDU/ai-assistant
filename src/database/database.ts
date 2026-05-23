@@ -15,8 +15,8 @@ database.exec(`
   CREATE TABLE IF NOT EXISTS chat_messages (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     user_id INTEGER,
-    role TEXT,
-    message TEXT,
+    user_message TEXT,
+    assistant_message TEXT,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY(user_id) REFERENCES users(id)
   )

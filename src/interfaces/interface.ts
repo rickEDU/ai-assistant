@@ -1,19 +1,18 @@
 export interface INewUser {
-    id?: number;
-    name: string;
-    email: string;
-    password: string;
+  id?: number;
+  name: string;
+  email: string;
+  password: string;
 }
 
 export interface ApiResponse {
-    message: string;
-    status: number;
-    data: null | object | object[];
-    error: null | string;
+  message: string;
+  status: number;
+  data: null | object | object[];
+  error: null | string;
 }
 // import { ObjectId } from "mongodb";
 // import { WebSocket } from "ws";
-
 
 // export interface IUser {
 //     _id: ObjectId | string;
@@ -31,8 +30,6 @@ export interface ApiResponse {
 //     name: string;
 //     image: string;
 // }
-
-
 
 // export interface IUserUpdate {
 //     name?: string;
@@ -128,7 +125,6 @@ export interface ApiResponse {
 //     createDate: Date;
 //     lastVisitDate: Date;
 // }
-
 
 // export interface IPatchCommunity{
 //     id: string;

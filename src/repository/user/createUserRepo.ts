@@ -1,27 +1,27 @@
-import database from "@/src/database/database";
+import database from '@/src/database/database';
 // import { createMongoConnection } from "@/src/database/pool";
-import { INewUser } from "@/src/interfaces/interface";
+import { INewUser } from '@/src/interfaces/interface';
 
-const TAG = "REPOSITORY(POST): createUserRepo ";
+const TAG = 'REPOSITORY(POST): createUserRepo ';
 
-export async function createUserRepo(user: INewUser) {  
-    // const pool  = createMongoConnection();  
-    // const client = await pool.connect();
-    // const collection = client.db("literalink-dev").collection("users");
-    try{ 
-        const stmt = database.prepare(`
+export async function createUserRepo(user: INewUser) {
+  // const pool  = createMongoConnection();
+  // const client = await pool.connect();
+  // const collection = client.db("literalink-dev").collection("users");
+  try {
+    const stmt = database.prepare(`
             INSERT INTO users (name, email, password)
             VALUES (?, ?, ?)
         `);
-        await stmt.run(user.name, user.email, user.password);
-    } catch (error) {
-        console.log(TAG, error);
-        throw error;
-    }
+    await stmt.run(user.name, user.email, user.password);
+  } catch (error) {
+    console.log(TAG, error);
+    throw error;
+  }
 }
 
 // export async function getUserRepo(email: string) {
-//     try{ 
+//     try{
 //         const stmt = database.prepare(`
 //             SELECT * FROM users WHERE email = ?
 //         `);
@@ -31,8 +31,6 @@ export async function createUserRepo(user: INewUser) {
 //         throw error;
 //     }
 // }
-
-
 
 export function getFacts(name: string) {
   const stmt = database.prepare(`

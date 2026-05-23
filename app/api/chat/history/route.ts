@@ -1,17 +1,15 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createResponse } from '@/src/utils/response'; //
 import { auth } from '@/src/utils/middlewares/auth';
-import { chatMessageService } from '@/src/service/user/chat/chatService';
+import { chatHistoryService } from '@/src/service/user/chat/chatService';
 
-export async function POST(req: NextRequest) {
+export async function GET(req: NextRequest) {
   const Response = createResponse();
   // const redis = createRedisClient();
   try {
     const user = await auth(req);
-    const request = await req.json();
-    const { message } = request;
 
-    const chatResponse = await chatMessageService(user.id, message);
+    const chatResponse = await chatHistoryService(user.id);
     Response.data = chatResponse;
     return NextResponse.json(Response, { status: Response.status });
   } catch (e: any) {
