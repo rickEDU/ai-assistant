@@ -1,4 +1,5 @@
 import database from '@/src/database/database';
+import { ChatMessage } from '@/src/interfaces/interface';
 
 const TAG = 'REPOSITORY(POST): chatMessagesRepo ';
 
@@ -24,7 +25,19 @@ export async function getChatMessagesByUserId(user_id: string) {
     const stmt = database.prepare(`
             SELECT user_message, assistant_message FROM chat_messages WHERE user_id = ? order by created_at asc
         `);
-    return await stmt.all(user_id);
+    return await stmt.all(user_id) as ChatMessage[];
+  } catch (error) {
+    console.log(TAG, error);
+    throw error;
+  }
+}
+
+export async function getRecentMessagesByUserId(user_id: string) {
+  try {
+    const stmt = database.prepare(`
+            SELECT user_message, assistant_message FROM chat_messages WHERE user_id = ? order by created_at desc limit 5
+        `);
+    return await stmt.all(user_id) as ChatMessage[];
   } catch (error) {
     console.log(TAG, error);
     throw error;

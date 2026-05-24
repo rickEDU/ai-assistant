@@ -1,7 +1,6 @@
 import { CustomError } from '../../utils/customError';
 import { INewUser } from '@/src/interfaces/interface';
 import { hashPassword } from '@/src/utils/hashPassword';
-// import { checkExistingCredentials } from "./checkers/checkUserCredentials";
 import { createUserRepo } from '@/src/repository/user/userRepo';
 
 const TAG = 'SERVICE(POST): USER ';
@@ -20,14 +19,6 @@ export async function createUser(requestUser: INewUser) {
         }
     });
 
-    // const matchingCredentials = await checkExistingCredentials(requestUser.email, requestUser.name);
-
-    // if(matchingCredentials === "Email") {
-    //     throw new CustomError("Error: email already taken", 409);
-    // }
-    // else if (matchingCredentials === "Username") {
-    //     throw new CustomError("Error: username already taken", 409);
-    // } else {
     const hashedPassword = await hashPassword(
       requestUser.password,
       process.env.SALT!,
@@ -43,7 +34,6 @@ export async function createUser(requestUser: INewUser) {
     };
     const res = await createUserRepo(newUser);
     return res;
-    // }
   } catch (e: any) {
     console.log(TAG, e);
     if (!e.status) {
