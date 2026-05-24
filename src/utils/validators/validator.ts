@@ -11,7 +11,7 @@ class Validator {
 class StringValidator extends Validator {
   constructor(data: string) {
     if (typeof data !== 'string') {
-      throw new CustomError('O valor passado não é uma string', 400);
+      throw new CustomError('Only strings are allowed', 400);
     }
     super(data);
   }
@@ -20,7 +20,7 @@ class StringValidator extends Validator {
 export class NumberValidator extends Validator {
   constructor(data: number) {
     if (typeof data !== 'number') {
-      throw new CustomError('O valor passado não é uma number', 400);
+      throw new CustomError('Only numbers are allowed', 400);
     }
     super(data);
   }
@@ -66,29 +66,6 @@ export class PasswordValidator extends RegexValidator {
 
   protected get regex(): RegExp {
     return /^[^\s]+$/gim;
-  }
-}
-
-export class NameCommunityValidator extends RegexValidator {
-  constructor(data: string) {
-    super(data, 'Error: Invalid community name.');
-  }
-
-  protected get regex(): RegExp {
-    return /^[a-zA-Z0-9áéíóúâêîôûãõÁÉÍÓÚÂÊÎÔÛÃÕàèìòùÀÈÌÒÙçÇäëïöüÄËÏÖÜ  ]+$/gim;
-  }
-}
-
-export class GoalTypeValidator extends RegexValidator {
-  constructor(data: string) {
-    super(
-      data,
-      "Tipo de Meta inválida, só são aceitos os tipos 'days', 'time' e 'chapters'",
-    );
-  }
-
-  protected get regex(): RegExp {
-    return /^(days|time|chapters)$/gim;
   }
 }
 
