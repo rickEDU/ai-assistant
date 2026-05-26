@@ -25,8 +25,10 @@ database.exec(`
 database.exec(`
   CREATE TABLE IF NOT EXISTS user_facts (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
+    type TEXT CHECK(type IN ('like', 'dislike', 'allergy')),
     user_id INTEGER,
-    fact TEXT,
+    item TEXT,
+    category TEXT CHECK(category IN ('sobremesa', 'bebida', 'salgado')),
     FOREIGN KEY(user_id) REFERENCES users(id)
   )
 `);

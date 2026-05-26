@@ -7,8 +7,6 @@ Tipo:
 - gelado
 - amargo
 - refrescante
-
-Perfil:
 - cítrico
 - refrescante
 - amargor elegante

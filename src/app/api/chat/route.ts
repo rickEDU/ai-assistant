@@ -1,11 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { createResponse } from '@/src/utils/response'; //
+import { createResponse } from '@/src/utils/response';
 import { auth } from '@/src/utils/middlewares/auth';
 import { chatMessageService } from '@/src/service/chat/chatService';
 
 export async function POST(req: NextRequest) {
   const Response = createResponse();
-  // const redis = createRedisClient();
+
   try {
     const user = await auth(req);
     const request = await req.json();

@@ -6,12 +6,11 @@ Tipo:
 - chá
 - gelado
 - refrescante
-
-Perfil:
 - frutado
 - refrescante
 - suave
-- levemente doce
+- levemente
+- doce
 
 Ingredientes:
 - chá preto

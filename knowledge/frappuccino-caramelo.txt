@@ -7,11 +7,9 @@ Tipo:
 - frappuccino
 - gelado
 - doce
-
-Perfil:
-- doce
 - cremoso
-- caramelo amanteigado
+- caramelo
+- amanteigado
 - refrescante
 
 Ingredientes:

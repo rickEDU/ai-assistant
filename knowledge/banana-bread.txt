@@ -7,8 +7,6 @@ Tipo:
 - doce
 - sobremesa
 - fitness
-
-Perfil:
 - banana
 - canela
 - macio

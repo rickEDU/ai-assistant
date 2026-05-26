@@ -7,8 +7,6 @@ Tipo:
 - bolo
 - sobremesa
 - doce
-
-Perfil:
 - cremoso
 - frutado
 - doce

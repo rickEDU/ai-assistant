@@ -6,8 +6,6 @@ Tipo:
 - café
 - latte
 - quente
-
-Perfil:
 - forte
 - cremoso
 - equilibrado

@@ -6,8 +6,6 @@ Tipo:
 - café
 - cappuccino
 - quente
-
-Perfil:
 - cremoso
 - equilibrado
 - achocolatado

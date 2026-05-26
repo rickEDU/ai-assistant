@@ -8,8 +8,6 @@ Tipo:
 - bolacha
 - doce
 - sobremesa
-
-Perfil:
 - chocolate
 - macio
 - amanteigado

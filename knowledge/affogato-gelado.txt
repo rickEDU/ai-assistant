@@ -6,8 +6,6 @@ Tipo:
 - sobremesa
 - café
 - gelado
-
-Perfil:
 - cremoso
 - doce
 - café intenso
