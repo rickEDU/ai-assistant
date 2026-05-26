@@ -1,0 +1,30 @@
+Nome: Espresso Tônica
+
+Categoria: bebida
+
+Tipo:
+- café
+- gelado
+- amargo
+- refrescante
+
+Perfil:
+- cítrico
+- refrescante
+- amargor elegante
+- sofisticado
+
+Ingredientes:
+- espresso
+- água tônica premium
+- gelo
+
+Combina com:
+- cheesecake de frutas vermelhas
+- cookie artesanal
+- brownie de chocolate
+
+Descrição:
+Combinação refrescante de espresso com água tônica premium e gelo.
+Bebida sofisticada muito apreciada por clientes que gostam de cafés especiais e sabores mais complexos.
+Excelente escolha para dias muito quentes.

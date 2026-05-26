@@ -1,0 +1,28 @@
+Nome: Espresso Tradicional
+
+Categoria: bebida
+
+Tipo:
+- café
+- espresso
+- quente
+
+Perfil:
+- chocolate amargo
+- castanhas
+- intenso
+- encorpado
+
+Ingredientes:
+- blend especial de café
+- água filtrada
+
+Combina com:
+- croissant de queijo
+- brownie de chocolate
+- cookie artesanal
+
+Descrição:
+Espresso intenso preparado com blend especial da casa e extração encorpada.
+Possui crema aveludada e notas marcantes de chocolate amargo e castanhas.
+Ideal para clientes que gostam de cafés fortes e sofisticados.

@@ -1,0 +1,30 @@
+Nome: Croissant de Queijo
+
+Categoria: salgado
+
+Tipo:
+- croissant
+- salgado
+- lanche
+- amanteigado
+
+Perfil:
+- amanteigado
+- leve
+- crocante
+- cremoso
+
+Ingredientes:
+- massa folhada
+- queijo
+- manteiga
+
+Combina com:
+- cappuccino
+- espresso
+- café coado v60
+
+Descrição:
+Croissant artesanal amanteigado recheado com queijo cremoso.
+Muito procurado por clientes que desejam um lanche leve e sofisticado.
+Excelente harmonização com cafés quentes e filtrados.

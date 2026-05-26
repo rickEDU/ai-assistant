@@ -1,0 +1,32 @@
+Nome: Cookie
+
+Categoria: sobremesa
+
+Tipo:
+- cookie
+- biscoito
+- bolacha
+- doce
+- sobremesa
+
+Perfil:
+- chocolate
+- macio
+- amanteigado
+- doce
+
+Ingredientes:
+- chocolate
+- manteiga
+- farinha
+- açúcar mascavo
+
+Combina com:
+- cappuccino
+- chocolate quente cremoso
+- latte tradicional
+
+Descrição:
+Cookie artesanal de chocolate com interior macio e textura amanteigada.
+Muito apreciado por clientes que gostam de sobremesas clássicas e aconchegantes.
+Excelente acompanhamento para bebidas quentes e cremosas.

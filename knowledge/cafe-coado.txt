@@ -1,0 +1,26 @@
+Nome: Café Coado V60
+
+Categoria: bebida
+
+Tipo:
+- café
+- quente
+
+Perfil:
+- frutado
+- aromático
+- suave
+
+Ingredientes:
+- café especial
+- água filtrada
+
+Combina com:
+- banana bread
+- bolo de cenoura
+- cookie de chocolate
+
+Descrição:
+Método filtrado V60 preparado com grãos especiais selecionados para destacar notas sensoriais delicadas.
+Muito recomendado para apreciadores de cafés especiais e métodos filtrados.
+Excelente escolha para quem busca uma experiência mais aromática e sofisticada.

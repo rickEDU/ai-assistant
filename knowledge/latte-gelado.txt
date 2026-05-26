@@ -1,0 +1,30 @@
+Nome: Latte Gelado
+
+Categoria: bebida
+
+Tipo:
+- café
+- latte
+- gelado
+
+Perfil:
+- cremoso
+- equilibrado
+- suave
+- levemente adocicado
+
+Ingredientes:
+- espresso
+- leite gelado
+- gelo
+
+Combina com:
+- cheesecake de frutas vermelhas
+- bolo de cenoura
+- cookie artesanal
+
+Descrição:
+Nosso Latte Gelado combina espresso extraído na hora com leite gelado cremoso.
+Possui textura suave e equilíbrio entre a doçura natural do leite e a intensidade do café.
+Disponível com leite integral, sem lactose, aveia ou amêndoas.
+Excelente opção para tardes quentes e clientes que preferem bebidas suaves.

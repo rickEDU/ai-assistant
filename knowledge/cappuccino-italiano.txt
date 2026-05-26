@@ -1,0 +1,30 @@
+Nome: Cappuccino Italiano
+
+Categoria: bebida
+
+Tipo:
+- café
+- cappuccino
+- quente
+
+Perfil:
+- cremoso
+- equilibrado
+- achocolatado
+- encorpado
+
+Ingredientes:
+- espresso
+- leite vaporizado
+- espuma de leite
+- chocolate em pó
+
+Combina com:
+- brownie de chocolate
+- bolo de cenoura
+- croissant de queijo
+
+Descrição:
+Clássico cappuccino italiano preparado com espresso, leite vaporizado e espuma cremosa.
+Um dos favoritos da cafeteria por seu equilíbrio entre café e cremosidade.
+Pode ser preparado com leite sem lactose ou vegetal.

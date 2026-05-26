@@ -1,0 +1,29 @@
+Nome: Chá Gelado de Pêssego
+
+Categoria: bebida
+
+Tipo:
+- chá
+- gelado
+- refrescante
+
+Perfil:
+- frutado
+- refrescante
+- suave
+- levemente doce
+
+Ingredientes:
+- chá preto
+- pêssego natural
+- gelo
+
+Combina com:
+- wrap vegetariano
+- cheesecake de frutas vermelhas
+- sanduíche natural
+
+Descrição:
+Chá preto infusionado com pêssego natural e servido gelado.
+Excelente opção para clientes que preferem bebidas leves e refrescantes.
+Muito procurado por quem evita cafés intensos ou bebidas com alta cafeína.

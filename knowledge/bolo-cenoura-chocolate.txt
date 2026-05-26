@@ -1,0 +1,28 @@
+Nome: Bolo de Cenoura
+
+Categoria: sobremesa
+
+Tipo:
+- bolo
+- Doce
+
+Perfil:
+- chocolate
+- caseiro
+- fofinho
+- doce
+
+Ingredientes:
+- cenoura
+- chocolate
+- farinha
+- ovos
+
+Combina com:
+- cappuccino
+- latte
+- café coado
+
+Descrição:
+Bolo artesanal de cenoura com cobertura cremosa de chocolate.
+Muito popular entre clientes que gostam de sobremesas tradicionais.

@@ -1,0 +1,32 @@
+Nome: Frappuccino de Caramelo
+
+Categoria: bebida
+
+Tipo:
+- café
+- frappuccino
+- gelado
+- doce
+
+Perfil:
+- doce
+- cremoso
+- caramelo amanteigado
+- refrescante
+
+Ingredientes:
+- café
+- leite
+- gelo
+- calda de caramelo
+- chantilly
+
+Combina com:
+- cheesecake de frutas vermelhas
+- brownie de chocolate
+- cookie artesanal
+
+Descrição:
+Bebida gelada batida com café, leite, gelo e calda artesanal de caramelo.
+Finalizada com chantilly e muito popular entre clientes jovens.
+Excelente escolha para quem prefere bebidas doces e cremosas.

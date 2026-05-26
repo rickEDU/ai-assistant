@@ -1,0 +1,31 @@
+Nome: Banana Bread
+
+Categoria: sobremesa
+
+Tipo:
+- pão
+- doce
+- sobremesa
+- fitness
+
+Perfil:
+- banana
+- canela
+- macio
+- caseiro
+
+Ingredientes:
+- banana
+- farinha
+- canela
+- ovos
+
+Combina com:
+- café coado
+- cappuccino
+- latte
+
+Descrição:
+Pão doce artesanal de banana com toque de canela e textura macia.
+Muito procurado por clientes fitness e por quem prefere sobremesas menos doces.
+Excelente opção para acompanhar cafés filtrados.

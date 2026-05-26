@@ -1,0 +1,31 @@
+Nome: Chai Latte
+
+Categoria: bebida
+
+Tipo:
+- chá
+- latte
+- quente
+
+Perfil:
+- especiado
+- aromático
+- cremoso
+- aconchegante
+
+Ingredientes:
+- chá preto
+- leite vaporizado
+- canela
+- cardamomo
+- gengibre
+
+Combina com:
+- banana bread
+- cookie de chocolate
+- bolo de cenoura
+
+Descrição:
+Mistura tradicional de chá preto e especiarias indianas preparada com leite vaporizado.
+Muito apreciado por clientes que buscam bebidas aromáticas e diferentes do café tradicional.
+Excelente alternativa para dias frios.

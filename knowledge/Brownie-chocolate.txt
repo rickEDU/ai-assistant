@@ -1,0 +1,31 @@
+Nome: Brownie de Chocolate
+
+Categoria: sobremesa
+
+Tipo:
+- brownie
+- chocolate
+- sobremesa
+- doce
+
+Perfil:
+- chocolate
+- macio
+- doce
+- amanteigado
+
+Ingredientes:
+- chocolate meio amargo
+- manteiga
+- farinha
+- ovos
+
+Combina com:
+- cold brew
+- mocha quente
+- espresso
+
+Descrição:
+Brownie artesanal de chocolate meio amargo com interior macio e sabor intenso.
+Muito apreciado por clientes que gostam de sobremesas encorpadas e chocolatudas.
+Excelente harmonização com bebidas à base de café.

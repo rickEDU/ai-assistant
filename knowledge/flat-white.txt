@@ -1,0 +1,29 @@
+Nome: Flat White
+
+Categoria: bebida
+
+Tipo:
+- café
+- latte
+- quente
+
+Perfil:
+- forte
+- cremoso
+- equilibrado
+- encorpado
+
+Ingredientes:
+- ristretto
+- leite vaporizado
+- microespuma
+
+Combina com:
+- banana bread
+- cookie artesanal
+- cheesecake de frutas vermelhas
+
+Descrição:
+Bebida australiana preparada com ristretto e microespuma cremosa.
+Muito apreciada por clientes que buscam intensidade no café sem excesso de leite.
+Excelente equilíbrio entre força e suavidade.

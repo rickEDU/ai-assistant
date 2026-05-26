@@ -1,0 +1,27 @@
+Nome: Affogato Gelado
+
+Categoria: sobremesa
+
+Tipo:
+- sobremesa
+- café
+- gelado
+
+Perfil:
+- cremoso
+- doce
+- café intenso
+
+Ingredientes:
+- sorvete de baunilha
+- espresso
+
+Combina com:
+- brownie
+- cookie de chocolate
+- café coado
+
+Descrição:
+Sobremesa italiana preparada com sorvete de baunilha e espresso fresco.
+Muito apreciada por clientes que gostam de cafés intensos e sobremesas cremosas.
+Ideal para dias quentes e como finalização após refeições.

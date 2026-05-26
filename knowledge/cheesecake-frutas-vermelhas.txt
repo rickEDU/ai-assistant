@@ -1,0 +1,31 @@
+Nome: Cheesecake de Frutas Vermelhas
+
+Categoria: sobremesa
+
+Tipo:
+- cheesecake
+- bolo
+- sobremesa
+- doce
+
+Perfil:
+- cremoso
+- frutado
+- doce
+- suave
+
+Ingredientes:
+- cream cheese
+- frutas vermelhas
+- biscoito amanteigado
+- creme
+
+Combina com:
+- latte gelado
+- cold brew com baunilha
+- chá gelado de pêssego
+
+Descrição:
+Cheesecake cremoso com cobertura artesanal de frutas vermelhas frescas.
+Muito apreciado por clientes que gostam de sobremesas leves e equilibradas.
+Excelente combinação com bebidas geladas e cafés suaves.

@@ -1,0 +1,30 @@
+Nome: Empada de Frango
+
+Categoria: salgado
+
+Tipo:
+- empada
+- salgado
+- lanche
+
+Perfil:
+- cremosa
+- salgada
+- caseira
+- leve
+
+Ingredientes:
+- frango desfiado
+- creme
+- farinha
+- manteiga
+
+Combina com:
+- chá gelado de pêssego
+- cappuccino
+- café coado
+
+Descrição:
+Empada artesanal de frango com recheio cremoso e massa leve.
+Boa opção para clientes que procuram um lanche rápido e saboroso.
+Muito popular durante o almoço e café da tarde.

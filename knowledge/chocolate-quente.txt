@@ -1,0 +1,29 @@
+Nome: Chocolate Quente Cremoso
+
+Categoria: bebida
+
+Tipo:
+- chocolate
+- quente
+- doce
+
+Perfil:
+- cremoso
+- doce
+- intenso
+- achocolatado
+
+Ingredientes:
+- chocolate artesanal
+- leite vaporizado
+- creme de leite
+
+Combina com:
+- cookies
+- brownie de chocolate
+- banana bread
+
+Descrição:
+Chocolate artesanal derretido preparado com leite vaporizado e textura extremamente cremosa.
+Muito pedido em dias frios e por clientes que preferem bebidas doces e reconfortantes.
+Excelente opção para acompanhar sobremesas de chocolate.

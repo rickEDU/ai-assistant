@@ -1,0 +1,29 @@
+Nome: Cold Brew Tradicional
+
+Categoria: bebida
+
+Tipo:
+- café
+- brew
+- gelado
+
+Perfil:
+- chocolate amargo
+- caramelo
+- baixa acidez
+- refrescante
+
+Ingredientes:
+- café arábica
+- água filtrada
+- gelo
+
+Combina com:
+- brownie de chocolate
+- cheesecake de frutas vermelhas
+- croissant de queijo
+
+Descrição:
+Nosso Cold Brew Tradicional é preparado com grãos 100% arábica extraídos lentamente por 18 horas em água filtrada gelada.
+O resultado é uma bebida suave, menos ácida e naturalmente adocicada, ideal para dias quentes.
+Muito apreciado por clientes que gostam de cafés intensos e refrescantes.

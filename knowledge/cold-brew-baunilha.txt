@@ -1,0 +1,30 @@
+Nome: Cold Brew com Baunilha
+
+Categoria: bebida
+
+Tipo:
+- café
+- brew
+- gelado
+
+Perfil:
+- baunilha
+- doce
+- refrescante
+- baixa acidez
+
+Ingredientes:
+- café especial
+- baunilha natural
+- água filtrada
+- gelo
+
+Combina com:
+- cheesecake de frutas vermelhas
+- brownie de chocolate
+- cookie de chocolate
+
+Descrição:
+Versão especial do cold brew infusionada com notas naturais de baunilha.
+Bebida refrescante e aromática muito procurada por clientes que preferem sabores doces e equilibrados.
+Ideal para iniciantes no café especial e pode ser preparada sem lactose.
