@@ -23,7 +23,10 @@ export async function createChatMessage(
 export async function getChatMessagesByUserId(user_id: string) {
   try {
     const stmt = database.prepare(`
-            SELECT user_message, assistant_message FROM chat_messages WHERE user_id = ? order by created_at asc
+            SELECT user_message, assistant_message 
+            FROM chat_messages 
+            WHERE user_id = ? 
+            order by created_at asc
         `);
     return await stmt.all(user_id) as ChatMessage[];
   } catch (error) {
@@ -35,7 +38,9 @@ export async function getChatMessagesByUserId(user_id: string) {
 export async function getRecentMessagesByUserId(user_id: string) {
   try {
     const stmt = database.prepare(`
-            SELECT user_message, assistant_message FROM chat_messages WHERE user_id = ? order by created_at desc limit 5
+            SELECT user_message, assistant_message 
+            FROM chat_messages 
+            WHERE user_id = ? order by created_at desc limit 2
         `);
     return await stmt.all(user_id) as ChatMessage[];
   } catch (error) {

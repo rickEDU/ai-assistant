@@ -28,7 +28,6 @@ export default function SignUpPage() {
 
       const data = await response.json();
 
-      console.log(data);
       navigate.replace('/sign-in');
     } catch (error) {
       console.error(error);

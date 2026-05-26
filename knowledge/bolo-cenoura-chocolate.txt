@@ -5,8 +5,6 @@ Categoria: sobremesa
 Tipo:
 - bolo
 - Doce
-
-Perfil:
 - chocolate
 - caseiro
 - fofinho

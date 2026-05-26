@@ -6,12 +6,10 @@ Tipo:
 - café
 - latte
 - gelado
-
-Perfil:
 - cremoso
 - equilibrado
 - suave
-- levemente adocicado
+- doce
 
 Ingredientes:
 - espresso

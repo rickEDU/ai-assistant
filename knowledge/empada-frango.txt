@@ -5,9 +5,8 @@ Categoria: salgado
 Tipo:
 - empada
 - salgado
+- frango
 - lanche
-
-Perfil:
 - cremosa
 - salgada
 - caseira

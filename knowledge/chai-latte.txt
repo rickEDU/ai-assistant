@@ -6,8 +6,6 @@ Tipo:
 - chá
 - latte
 - quente
-
-Perfil:
 - especiado
 - aromático
 - cremoso

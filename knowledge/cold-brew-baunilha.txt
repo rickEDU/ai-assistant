@@ -6,8 +6,6 @@ Tipo:
 - café
 - brew
 - gelado
-
-Perfil:
 - baunilha
 - doce
 - refrescante

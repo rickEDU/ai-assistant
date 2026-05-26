@@ -6,8 +6,6 @@ Tipo:
 - café
 - espresso
 - quente
-
-Perfil:
 - chocolate amargo
 - castanhas
 - intenso

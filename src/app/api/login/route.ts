@@ -1,18 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { cookies } from 'next/headers';
 import jwt from 'jsonwebtoken';
-// import { createRedisClient } from "@/src/database/redis/redis";
-import { createResponse } from '@/src/utils/response'; //
+import { createResponse } from '@/src/utils/response';
 import {
   EmailValidator,
   PasswordValidator,
 } from '@/src/utils/validators/validator';
 import { loginService } from '@/src/service/user/loginService';
-// import { expireSequence } from "@/src/service/user/updateStatistics";
 
 export async function POST(req: NextRequest) {
   const Response = createResponse();
-  // const redis = createRedisClient();
   try {
     const request = await req.json();
     const { email, password } = request;

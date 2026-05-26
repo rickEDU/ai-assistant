@@ -5,8 +5,6 @@ Categoria: bebida
 Tipo:
 - café
 - quente
-
-Perfil:
 - frutado
 - aromático
 - suave

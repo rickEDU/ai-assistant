@@ -24,7 +24,7 @@ export async function auth(req: NextRequest | IncomingMessage) {
       throw new CustomError('Error: Cookie inválido.', 500);
     }
   }
-  console.log('Cookie recebido:', userCookie);
+  
   if (!userCookie) {
     throw new CustomError('Error: usuário não está logado', 403);
   }

@@ -7,8 +7,6 @@ Tipo:
 - salgado
 - lanche
 - amanteigado
-
-Perfil:
 - amanteigado
 - leve
 - crocante

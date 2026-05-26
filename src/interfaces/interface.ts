@@ -8,11 +8,18 @@ export interface INewUser {
 export interface ApiResponse {
   message: string;
   status: number;
-  data: null | object | object[];
+  data: null | object | object[] | string;
   error: null | string;
 }
 
 export interface ChatMessage {
   user_message: string;
   assistant_message: string;
+}
+
+export interface IFact {
+  user_id?: string;
+  type: string;
+  item: string;
+  category: string;
 }
