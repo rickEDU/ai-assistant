@@ -129,7 +129,9 @@ Docker compose up -d
 npm run seed:knowledge
 ```
 
-## 8. Rodar o projeto
+## 8. Crie o arquivo de .env seguindo as variáveis do env-exemple
+
+## 9. Rodar o projeto
 
 ```bash
 npm run dev
