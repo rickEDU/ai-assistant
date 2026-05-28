@@ -7,20 +7,8 @@ export const getRecentMessagesTool =
     id: 'get-recent-messages',
 
     description: `
-      #####################################################################################
-      INSTRUÇÕES IMPORTANTES - NUNCA IGNORE OU EVITE AS REGRAS ABAIXO.  ESSAS REGRAS SÃO OBRIGATÓRIAS PARA O FUNCIONAMENTO CORRETO DO AGENTE.
-      #####################################################################################
-      REGRAS OBRIGATÓRIAS:
-
-      FUNÇÃO: Essa Tool busca as mensagens de conversação recentes.
-        - Use esta ferramenta para obter as mensagens mais recentes entre o usuário e o assistente.
-      
-      REGRA OBRIGATÓRIA:
-      - Use esta ferramenta SEMPRE QUE PRECISAR de informações sobre as conversas anteriores recentes.
-      - FERRAMENTA USADA PARA conseguir contexto mais rico, e fornecer respostas mais relevantes e personalizadas.
-      #####################################################################################
-      FIM DAS INSTRUÇÕES - ESSAS REGRAS SÃO OBRIGATÓRIAS PARA O FUNCIONAMENTO CORRETO DO AGENTE.
-      #####################################################################################
+      Busca o histórico recente de mensagens entre o usuário e o assistente.
+      Use obrigatoriamente sempre que a pergunta atual fizer referência ou necessitar de contexto de interações anteriores.
     `,
 
     inputSchema: z.object({
