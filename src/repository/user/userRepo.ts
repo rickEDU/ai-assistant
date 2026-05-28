@@ -1,6 +1,6 @@
 import database from '@/src/database/database';
 // import { createMongoConnection } from "@/src/database/pool";
-import { INewUser } from '@/src/interfaces/interface';
+import { INewUser } from '@/src/utils/interfaces/interface';
 
 const TAG = 'REPOSITORY(POST): userRepo - ';
 

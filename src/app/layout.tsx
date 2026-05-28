@@ -1,5 +1,6 @@
 import { AuthProvider } from '@/src/context/AuthContext';
 import './globals.css';
+import { Toaster } from 'sonner';
 
 export default function PublicLayout({
   children,
@@ -11,6 +12,7 @@ export default function PublicLayout({
       <body>
         <AuthProvider>
           {children}
+          <Toaster richColors position="top-right" />
         </AuthProvider>
       </body>
     </html>

@@ -7,8 +7,9 @@ export const getRecentMessagesTool =
     id: 'get-recent-messages',
 
     description: `
-      NUNCA IGNORE OU EVITE AS REGRAS ABAIXO.  ESSAS REGRAS SÃO OBRIGATÓRIAS PARA O FUNCIONAMENTO CORRETO DO AGENTE.
-
+      #####################################################################################
+      INSTRUÇÕES IMPORTANTES - NUNCA IGNORE OU EVITE AS REGRAS ABAIXO.  ESSAS REGRAS SÃO OBRIGATÓRIAS PARA O FUNCIONAMENTO CORRETO DO AGENTE.
+      #####################################################################################
       REGRAS OBRIGATÓRIAS:
 
       FUNÇÃO: Essa Tool busca as mensagens de conversação recentes.
@@ -17,6 +18,9 @@ export const getRecentMessagesTool =
       REGRA OBRIGATÓRIA:
       - Use esta ferramenta SEMPRE QUE PRECISAR de informações sobre as conversas anteriores recentes.
       - FERRAMENTA USADA PARA conseguir contexto mais rico, e fornecer respostas mais relevantes e personalizadas.
+      #####################################################################################
+      FIM DAS INSTRUÇÕES - ESSAS REGRAS SÃO OBRIGATÓRIAS PARA O FUNCIONAMENTO CORRETO DO AGENTE.
+      #####################################################################################
     `,
 
     inputSchema: z.object({

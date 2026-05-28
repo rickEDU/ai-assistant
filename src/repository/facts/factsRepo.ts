@@ -1,5 +1,5 @@
 import database from '@/src/database/database';
-import { IFact } from '@/src/interfaces/interface';
+import { IFact } from '@/src/utils/interfaces/interface';
 
 const TAG = 'REPOSITORY(POST): getFactsByUserId ';
 

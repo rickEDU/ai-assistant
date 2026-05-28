@@ -1,7 +1,7 @@
 import { getUserByEmail } from '@/src/repository/user/userRepo';
 import { CustomError } from '../../utils/customError';
 import { verifyPassword } from '@/src/utils/verifyPassword';
-import { INewUser } from '@/src/interfaces/interface';
+import { INewUser } from '@/src/utils/interfaces/interface';
 
 const TAG = 'SERVICE(POST): USER ';
 

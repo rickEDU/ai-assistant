@@ -1,4 +1,4 @@
-import { ApiResponse } from '../interfaces/interface';
+import { ApiResponse } from './interfaces/interface';
 
 export function createResponse(): ApiResponse {
   return {

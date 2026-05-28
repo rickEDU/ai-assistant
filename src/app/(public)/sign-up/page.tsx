@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
+import { toast } from 'sonner';
 
 export default function SignUpPage() {
   const navigate = useRouter();
@@ -26,10 +27,12 @@ export default function SignUpPage() {
         }),
       });
 
-      const data = await response.json();
-
-      navigate.replace('/sign-in');
+      if (response.ok) {
+        toast.success('Cadastro realizado com sucesso!');
+        navigate.replace('/sign-in');
+      }
     } catch (error) {
+      toast.error('Ocorreu algum erro. Tente novamente mais tarde.');
       console.error(error);
     }
   }

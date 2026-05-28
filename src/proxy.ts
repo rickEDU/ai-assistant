@@ -1,6 +1,6 @@
 import { NextResponse, NextRequest } from 'next/server';
 
-export async function middleware(req: NextRequest) {
+export function proxy(req: NextRequest) {
   const cookie = req.cookies.get('Session');
 
   if (!cookie) {

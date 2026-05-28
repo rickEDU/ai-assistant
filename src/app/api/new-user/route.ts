@@ -6,7 +6,7 @@ import {
   NameValidator,
   PasswordValidator,
 } from '@/src/utils/validators/validator';
-import { INewUser } from '@/src/interfaces/interface';
+import { INewUser } from '@/src/utils/interfaces/interface';
 
 export async function POST(req: NextRequest) {
   const Response = createResponse();

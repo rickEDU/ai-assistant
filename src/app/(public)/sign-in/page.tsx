@@ -3,7 +3,8 @@
 import { useAuth } from '@/src/context/AuthContext';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { useContext, useState } from 'react';
+import { useState } from 'react';
+import { toast } from 'sonner';
 
 export default function SignInPage() {
   const navigate = useRouter();
@@ -29,9 +30,13 @@ export default function SignInPage() {
         const responseJson = await response.json();
         setUser({ name: responseJson.data.name });
         navigate.replace('/chat');
+      } else {
+        toast.error('E-mail ou senha inválidos');
       }
     } catch (error) {
+      toast.error('Ocorreu algum erro. Tente novamente mais tarde.');
       console.error(error);
+      return;
     }
   }
 
@@ -42,7 +47,6 @@ export default function SignInPage() {
           <h1 className="text-4xl font-bold">Login</h1>
           <p className="text-sm text-zinc-400">Entre na sua conta</p>
         </div>
-
         <form onSubmit={handleLogin} className="flex flex-col gap-4">
           <div className="flex flex-col gap-2">
             <label className="text-sm text-zinc-300 padding-right-2">

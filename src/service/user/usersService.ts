@@ -1,5 +1,5 @@
 import { CustomError } from '../../utils/customError';
-import { INewUser } from '@/src/interfaces/interface';
+import { INewUser } from '@/src/utils/interfaces/interface';
 import { hashPassword } from '@/src/utils/hashPassword';
 import { createUserRepo } from '@/src/repository/user/userRepo';
 
