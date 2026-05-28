@@ -43,6 +43,7 @@ export const searchKnowledgeTool =
     }) => {
       const avoid = (context.avoid ?? []).map(v => v.toLowerCase());
 
+      console.log('Executing searchKnowledgeTool with context:', context);
       return await searchKnowledge(
         context.query,
         context.category,

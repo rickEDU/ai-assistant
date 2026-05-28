@@ -16,6 +16,7 @@ export const getUserFactsTool =
     }),
 
     execute: async ({ context }) => {
+      console.log('Executing getUserFactsTool with context:', context);
       const facts = await getFactsByUserId(
         context.userId,
       );

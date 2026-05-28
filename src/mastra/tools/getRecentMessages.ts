@@ -28,6 +28,7 @@ export const getRecentMessagesTool =
     }),
 
     execute: async ({ context }) => {
+      console.log('Executing getRecentMessagesTool with context:', context);
       const recentMessages = await getRecentMessagesByUserId(
         context.userId,
       );
