@@ -1,5 +1,5 @@
 import { chroma } from '@/src/lib/chroma';
-import { generateEmbedding } from '@/src/lib/embedding';
+import { generateEmbedding } from '@/src/utils/embedding';
 
 export async function searchKnowledge(
   query: string,

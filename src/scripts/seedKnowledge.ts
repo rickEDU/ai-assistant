@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 import { chroma } from '@/src/lib/chroma';
-import { generateEmbedding } from '@/src/lib/embedding';
+import { generateEmbedding } from '@/src/utils/embedding';
 
 function extractMetadata(content: string) {
   const categoryMatch =
