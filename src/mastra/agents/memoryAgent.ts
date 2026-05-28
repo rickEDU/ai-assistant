@@ -1,3 +1,4 @@
+import { geminiModelLLM } from '@/src/utils/constants/constants';
 import { Agent } from '@mastra/core/agent';
 import { PromptInjectionDetector } from '@mastra/core/processors';
 import { ollama } from 'ollama-ai-provider';
@@ -31,7 +32,7 @@ export const memoryAgent = new Agent({
     - contexto da conversa
 
     Extraia apenas preferências estáveis.
-    Retorne JSON:
+    Retorne texto estruturado dessa forma, contendo, caso seja mais de 1 ou mais fatos, dessa forma:
     { facts: [
       type: 'like' | 'dislike' | 'allergy',
       item: string, (ex: 'cappuccino', 'cheesecake', 'suco de laranja')
@@ -50,7 +51,7 @@ export const memoryAgent = new Agent({
   model: oLLM,
   inputProcessors: [
     new PromptInjectionDetector({
-      model: oLLM,
+      model: geminiModelLLM,
       detectionTypes: ['injection', 'jailbreak', 'system-override'],
       threshold: 0.8,
       strategy: 'block',

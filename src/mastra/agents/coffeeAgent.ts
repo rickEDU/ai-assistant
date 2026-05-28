@@ -1,11 +1,9 @@
 import { Agent } from '@mastra/core/agent';
-import { ollama } from 'ollama-ai-provider';
 import { searchKnowledgeTool } from '../tools/searchKnowledge';
 import { getUserFactsTool } from '../tools/getUserFacts';
 import { getRecentMessagesTool } from '../tools/getRecentMessages';
 import { PromptInjectionDetector } from '@mastra/core/processors';
-
-const oLLM = ollama('qwen2.5:7b');
+import { groqModelLLM, geminiModelLLM } from '@/src/utils/constants/constants';
 
 export const coffeeAgent =
   new Agent({
@@ -33,7 +31,7 @@ export const coffeeAgent =
             VOCÊ DEVE SEMPRE chamar getUserFactsTool antes de responder.
 
           * MENSAGENS RECENTES:
-          - Se precisar de informações sobre a conversa recente, use getRecentMessagesTool.
+          - Se precisar de informações sobre a conversa recente, SEMPRE USE getRecentMessagesTool.
           - Se o usuário fizer referência a uma conversa recente, VOCÊ DEVE SEMPRE chamar getRecentMessagesTool antes de responder.
 
 
@@ -44,10 +42,10 @@ export const coffeeAgent =
       #####################################################################################
     `,
 
-    model: oLLM,
+    model: groqModelLLM,
     inputProcessors: [
       new PromptInjectionDetector({
-        model: oLLM,
+        model: geminiModelLLM,
         detectionTypes: ['injection', 'jailbreak', 'system-override'],
         threshold: 0.8,
         strategy: 'block',
