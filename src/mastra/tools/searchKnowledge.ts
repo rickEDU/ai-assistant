@@ -28,8 +28,6 @@ export const searchKnowledgeTool =
       SEMPRE USE O CATEGORY. SE ESTÁ PROCURANDO AQUI, DEVE TER UMA CATEGORIA EM MENTE.
       USE O PARAMETRO AVOID SEMPRE QUE HOUVER INDICAÇÃO DE RESTRIÇÃO, PREFERÊNCIA OU ALERGIA NA MENSAGEM DO USUÁRIO.
       #####################################################################################
-      FIM DAS INSTRUÇÕES - ESSAS REGRAS SÃO OBRIGATÓRIAS PARA O FUNCIONAMENTO CORRETO DO AGENTE.
-      #####################################################################################
     `,
 
     inputSchema: z.object({

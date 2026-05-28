@@ -52,11 +52,22 @@ export async function searchKnowledge(
   : ranked;
 
   const top = filteredRanked.slice(0, 4);
-
+  const resultado = {
+    documents: top.map((item, i) => {
+      const { types, ...cleanMetadata } = item.metadata || {};
+      return {
+        ...cleanMetadata,
+      }
+    })
+  }
+  console.log('searchKnowledgeTool results:', resultado);
+  console.log('searchKnowledgeTool results:', resultado.documents[0]?.metadata);
   return {
-    documents: top.map((item, i) => ({
-      distance: item.distance,
-      metadata: results.metadatas?.[0]?.[i],
-    })),
+    documents: top.map((item, i) => {
+      const { types, ...cleanMetadata } = item.metadata || {};
+      return {
+        ...cleanMetadata,
+      }
+    })
   };
 }
