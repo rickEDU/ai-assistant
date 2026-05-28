@@ -7,7 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test:rag": "tsx src/scripts/testRag.ts",
     "seed:knowledge": "tsx src/scripts/seedKnowledge.ts",
     "delete:knowledge": "tsx src/scripts/deleteKnowledge.ts",
     "dev:full": "docker compose up -d && npm run dev"
